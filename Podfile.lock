@@ -1,0 +1,57 @@
+PODS:
+  - AEXML (4.2.2)
+  - KSCrash/Core (1.15.16):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.16):
+    - KSCrash/Recording/Tools (= 1.15.16)
+  - KSCrash/Recording/Tools (1.15.16)
+  - KSCrash/Reporting/Filters/Base (1.15.16):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.16):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - macOSThemeKit (1.1.0)
+  - PathKit (0.8.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - Sentry (3.9.1):
+    - Sentry/Core (= 3.9.1)
+    - Sentry/KSCrash (= 3.9.1)
+  - Sentry/Core (3.9.1)
+  - Sentry/KSCrash (3.9.1):
+    - KSCrash/Core (~> 1.15.12)
+  - xcproj (1.5.0):
+    - AEXML (~> 4.1)
+    - PathKit (~> 0.8)
+
+DEPENDENCIES:
+  - macOSThemeKit (~> 1.1.0)
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `3.9.1`)
+  - xcproj (~> 1.2)
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 3.9.1
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 3.9.1
+
+SPEC CHECKSUMS:
+  AEXML: 5ebafc1b75e0bcf0f1b09b8ca8fed2d5a199479b
+  KSCrash: e4cda5c8612c5f9478defcf43418f24870d313f4
+  macOSThemeKit: f1283aaa675bcc10fec66d4b51935ded715a03f7
+  PathKit: dcab05d701474011aae0e40cf892298a831f63d6
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  Sentry: e2707f9a6b498277d9620a48fcb1bd3b655c8473
+  xcproj: 1da6a5b4b385e836fbdab7e888c903db62a2c13d
+
+PODFILE CHECKSUM: 1b251c357be744e9ba2cd665884114377ee3d892
+
+COCOAPODS: 1.3.1
