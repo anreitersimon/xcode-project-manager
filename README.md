@@ -1,5 +1,7 @@
 # Xcode Project Manager
 
+<img src="/Assets/Logo.png" width="250"/>
+
 A macOS app to manage your modular Xcode projects.
 
 <a href="https://swift.org/package-manager">
