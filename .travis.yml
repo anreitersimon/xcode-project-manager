@@ -4,6 +4,8 @@ language: generic
 osx_image: xcode9
 install:
   - script/bootstrap
+before_script:
+  - bundle exec danger
 script:
   - bundle exec rake build
   - bundle exec rake test
